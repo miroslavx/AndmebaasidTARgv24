@@ -5,3 +5,17 @@ AndmeTüpp
 3. Loogika (bit, bool, boolean, true/falce)
 4. Kuupäeva (data/time, data, time)
 
+------------------------------------------------------------------------------
+Piirangud(Ограничения)
+* PRIMARY KEY - see on atribuut (või atribuutide kombinatsioon), mis identifitseerib üheselt stringi.
+* FORGEIN KEY - seos - связь с PK другой таблицы
+* NOT NULL
+* UNIQUE
+* CHECK - valik 
+
+SQL - ? Structure Query Language
+* DDL - Data Definition Language - CREATE TABLE, ALTER TABLE
+* DML - Data Manipulation Language - INSERT INTO, UPDATE, DELETE
+
+SQL Server Managment Studio
+XAMPP / phpMyAdmin
