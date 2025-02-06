@@ -84,3 +84,17 @@ END
 --kutse
 EXEC otsingUudiseTeema 'w';
 --XAPP/localhost
+
+USE burdygatargv;
+CREATE TABLE uudised(
+uudisID int PRIMARY KEY AUTO_INCREMENT,
+uudisTeema varchar(50),
+kuupaev date,
+autor varchar(25),
+kirjeldus text
+)
+
+INSERT INTO uudised(
+uudiseTeema, kuupaev, autor, kirjeldus)
+VALUES(
+'udune ilm', '2025-02-06', 'postimees', 'Lõunani on udune ilm')
